@@ -8,7 +8,7 @@ You can find how to train the model in my notebook on Kaggle:
 
 https://www.kaggle.com/iomili/fingers-dataset-cnn
 
-See more here: [piprojecs.xyz] (https://wp.me/p7NHtW-bL)
+See more here: https://wp.me/p7NHtW-bL
 
 
 
