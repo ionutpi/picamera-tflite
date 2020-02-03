@@ -1,4 +1,4 @@
-# Image Classification on Raspberry Pi Zero with TensorFlow Lite and Picam.
+# Image Classification on Raspberry Pi Zero with TensorFlow Lite and Picamera.
 
 This code allows you to process and score images using a pretrained TensorFlow model.
 
