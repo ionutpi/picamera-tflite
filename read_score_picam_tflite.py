@@ -1,12 +1,11 @@
-# import picamera
+import time
+import picamera
 import numpy as np
 
-from time import sleep
-from picamera import PiCamera
-
-camera = PiCamera()
-camera.resolution = (1024, 768)
-camera.start_preview()
-# Camera warm-up time
-sleep(2)
-camera.capture('foo.jpg')
+with picamera.PiCamera() as camera:
+    camera.resolution = (128, 128)
+    camera.color_effects = (128,128)
+    camera.framerate = 24
+    time.sleep(2)
+    output = np.empty((128, 128), dtype=np.uint8)
+    camera.capture(output)
